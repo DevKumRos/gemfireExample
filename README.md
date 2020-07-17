@@ -1,4 +1,4 @@
-# gemfireExample
+# GemfireExample
 
 Steps:
 Install Gemfire Server First.
@@ -79,9 +79,20 @@ gfsh>exit
  
 # How to run application
 Step1: Start gfsh, Locator, server & create Region.
-Step2: Download project Run HelloWorldApplication 
-Step3: http://localhost:9090/hello/{key}
+
+Step2: Download project Run HelloWorldApplication.
+
+Step3: http://localhost:9090/hello/{key}.
+
 Step4: try to access same key it will return within 3ms & 1st time it will take more then 3sec.
+
+# Example: 
+http://localhost:9090/hello/Samrat
+
+# result : In Browser
+key: 113
+value: FirstName - Samrat
+time to look up: LastName - Samratms
 
 
 
